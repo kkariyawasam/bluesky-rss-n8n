@@ -49,7 +49,7 @@ Steps taken to implement the solution:
 
    - Request Body: Not required
 
-  - Options:
+   - Options:
       - Response Format: File
       - Put Output in Field: data
 
