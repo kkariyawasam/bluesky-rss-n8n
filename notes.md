@@ -1,12 +1,12 @@
-# 📌 Project Notes – Automating Bluesky Posts with n8n (STAR Method)
+# Project Notes – Automating Bluesky Posts with n8n (STAR Method)
 
-## ⭐ Situation
+## Situation
 Manually posting updates from newsletters or blogs to Bluesky was time-consuming and error-prone.  
 The goal was to **automate the posting process** so every new RSS feed item from *First AI Movers* is automatically published as a native Bluesky post.
 
 ---
 
-## 🎯 Task
+## Task
 - Build an **automation workflow in n8n**.  
 - Fetch new items from an RSS feed.  
 - Post them to Bluesky with title + link + image + hashtag.  
@@ -14,7 +14,7 @@ The goal was to **automate the posting process** so every new RSS feed item from
 
 ---
 
-## ⚙️ Action
+## Action
 Steps taken to implement the solution:
 
 1. **RSS Feed Trigger**
@@ -129,7 +129,7 @@ Steps taken to implement the solution:
 
 ---
 
-## 🚀 Result
+## Result
 - Posts are now **automatically published** on Bluesky every time a new RSS feed item appears.  
 - Saved manual effort & ensured **consistent updates**.  
 - Workflow is reusable and can be adapted for other feeds in the future.  
