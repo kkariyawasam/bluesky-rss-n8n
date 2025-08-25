@@ -27,7 +27,7 @@ Steps taken to implement the solution:
    - Added `HTTP Request` node.  
    - Configured to call:  
      ```
-     POST [https://bsky.social/xrpc/com.atproto.repo.createRecord](https://bsky.social/xrpc/com.atproto.server.createSession)
+     POST https://bsky.social/xrpc/com.atproto.server.createSession
      ```  
 
    - Sent body:  
@@ -50,8 +50,8 @@ Steps taken to implement the solution:
    - Request Body: Not required
 
   - Options:
-      Response Format: File
-      Put Output in Field: data
+      - Response Format: File
+      - Put Output in Field: data
 
 4. **Download Image**
    - Added `HTTP Request` node.  
@@ -66,8 +66,8 @@ Steps taken to implement the solution:
            
      ```
    - Request Body:
-         Body content type - n8n Binary File
-         Input Data Field Name - data
+         - Body content type - n8n Binary File
+         - Input Data Field Name - data
 
 
 5. **Prepare Post Text**
