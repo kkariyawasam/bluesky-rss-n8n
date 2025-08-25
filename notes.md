@@ -35,8 +35,7 @@ Steps taken to implement the solution:
       {
       "identifier": "yourhandle.bsky.social",
       "password": "your_app_password"
-      }
-           
+      }      
      ```
   
 3. **Download Image**
@@ -46,9 +45,7 @@ Steps taken to implement the solution:
      GET {{ $('RSS Feed Trigger').item.json.enclosure.url }}
      ```
    - Authentication: None
-
    - Request Body: Not required
-
    - Options:
       - Response Format: File
       - Put Output in Field: data
@@ -63,12 +60,10 @@ Steps taken to implement the solution:
      ```json
      {"Authorization": "Bearer {{$json["accessJwt"]}}",
       "Content-Type": "Multipart/Form-Data"}
-           
      ```
    - Request Body:
          - Body content type - n8n Binary File
          - Input Data Field Name - data
-
 
 5. **Prepare Post Text**
    - Added `HTTP Request` node. 
