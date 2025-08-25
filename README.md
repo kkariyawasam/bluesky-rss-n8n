@@ -6,7 +6,7 @@ Automated workflow to post RSS feed items to Bluesky using n8n.
 
 This project shows how to **automatically post RSS feed items to Bluesky** using [n8n](https://n8n.io).  
 It fixes the common problem where links posted via Make.com or other tools appear as plain text (not clickable).  
-With this workflow, every RSS feed item becomes a **native Bluesky post with clickable links, hashtags, and images**.
+With this workflow, every RSS feed item becomes a **native Bluesky post with clickable links, title, hashtags, and images**.
 
 ---
 
