@@ -29,7 +29,6 @@ Steps taken to implement the solution:
      ```
      POST https://bsky.social/xrpc/com.atproto.server.createSession
      ```  
-
    - Sent body:  
      ```json
       {
