@@ -61,8 +61,8 @@ Steps taken to implement the solution:
       "Content-Type": "Multipart/Form-Data"}
      ```
    - Request Body:
-         - Body content type - n8n Binary File
-         - Input Data Field Name - data
+             - Body content type - n8n Binary File
+             - Input Data Field Name - data
 
 5. **Prepare Post Text**
    - Added `HTTP Request` node. 
