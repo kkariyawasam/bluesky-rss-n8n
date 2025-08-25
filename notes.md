@@ -39,7 +39,7 @@ Steps taken to implement the solution:
            
      ```
   
-3. **Upload Image**
+3. **Download Image**
    - Added `HTTP Request` node.  
    - Configured to call:  
      ```
@@ -53,7 +53,7 @@ Steps taken to implement the solution:
       - Response Format: File
       - Put Output in Field: data
 
-4. **Download Image**
+4. **Upload Image**
    - Added `HTTP Request` node.  
    - Configured to call:  
      ```
