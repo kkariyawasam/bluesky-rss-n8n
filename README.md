@@ -51,20 +51,20 @@ Steps taken:
      ```
    - Add a **facet** object marking the link range:
      ```json
-     "facets": [
-       {
-         "index": {
-           "byteStart": 56,
-           "byteEnd": 109
-         },
-         "features": [
-           {
-             "$type": "app.bsky.richtext.facet#link",
-             "uri": "https://example.com"
-           }
-         ]
-       }
-     ]
+      "facets": [
+      {
+        "index": {
+          "byteStart": {{ $('RSS Feed Trigger').item.json.title.length + '. Read more on First AI Movers: '.length }},
+          "byteEnd": {{ $('RSS Feed Trigger').item.json.title.length + '. Read more on First AI Movers: '.length + $('RSS Feed Trigger').item.json.link.length }}
+        },
+        "features": [
+          {
+            "$type": "app.bsky.richtext.facet#link",
+            "uri": "{{ $('RSS Feed Trigger').item.json.link }}"
+          }
+        ]
+      }
+    ]
      ```
 
 ---
@@ -79,6 +79,7 @@ Steps taken:
   - Image preview  
 
 Example Post:
+
 <img width="400" height="295" alt="image" src="https://github.com/user-attachments/assets/0ef67f7b-bc0c-470c-83cc-7ec3824620d2" />
 
 
