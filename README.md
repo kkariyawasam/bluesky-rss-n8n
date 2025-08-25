@@ -13,7 +13,7 @@ With this workflow, every RSS feed item becomes a **native Bluesky post with cli
 ## STAR Method Documentation
 
 ### **Situation**
-- **Problem:** Posting RSS feed items from [First AI Movers](https://bsky.app/profile/firstaimovers.bsky.social) to Bluesky.  
+- **Problem:** Posting RSS feed items from First AI Movers web site to Bluesky.  
 - **Issue:** Most automation tools (e.g., Make.com) only post plain text — links show as non-clickable.  
 - **Cause:** Bluesky requires *rich text facets* in the API payload to render clickable links.  
 - **Goal:** Build a fully automated workflow in n8n that posts RSS items as proper Bluesky posts with links, hashtags, and preview images.
